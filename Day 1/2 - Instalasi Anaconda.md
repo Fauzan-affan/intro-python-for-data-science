@@ -38,11 +38,11 @@ Kita dapat memilih menggunakan *Anaconda* dengan *package* *Python 2* atau *Pyth
 
 7. Langkah selanjutnya adalah mengecek apakah *Anaconda* sudah berhasil terinstal di komputer dengan cara mencari *Anaconda* di *Start Menu* untuk *windows*. *MacOs* atau *Linux skip* saja step ini.
 
-    ![Pilihan Download Python](img/img-day-1/sesi-2/9.png)
+    ![Pilihan Download Python](img/img-day-1/sesi-2/10.png)
 
 8. Buka *Anaconda Prompt* *(windows)* atau *terminal* *(MacOs atau Linux)* dan coba untuk mengecek versi *Anaconda Python* yang dipakai.
 
-    ![Pilihan Download Python](img/img-day-1/sesi-2/10.jpg)
+    ![Pilihan Download Python](img/img-day-1/sesi-2/9.jpg)
 
 9. Buka *Anaconda Navigator* untuk mengecek fitur–fitur atau aplikasi yang ada.
 
