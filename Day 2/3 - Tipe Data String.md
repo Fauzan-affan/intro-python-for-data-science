@@ -1,5 +1,6 @@
 # Tipe Data String
 
+## Definisi Tipe Data String
 *String* adalah kumpulan karakter, angka, spasi, emoji, dan karakter-karakter lainnya yang dibungkus oleh tanda petik. Kita bisa menggunakan **petik satu** ataupun **petik dua** selama itu **konsisten**. Contoh:
 
 ```Python
@@ -23,6 +24,10 @@ fruit = "apple' # syntax error
 message = 'He's right!' # syntax error
 ```
 
+## Escaping Character
+
+### Escaping Character Menggunakan Back Slash
+
 Atau kita bisa gunakan *escaping character*. *Escaping character* biasa digunakan untuk memunculkan simbol-simbol atau karakter-karakter yang menyebabkan *error* di *Python*. Terdapat 2 cara *escaping character*. Pertama, menggunakan **`\` *(back slash)***.
 
 ```Python
@@ -30,6 +35,8 @@ message = 'He\'s right!' # escaping characther \
 
 print(message) # ketika diprint akan memunculkan ' (kutip satu)
 ```
+
+### Escaping Character Menggunakan Tanda Petik
 
 Cara lain yang lebih *modern* adalah dengan menggunakan **petik satu atau petik dua sebanyak tiga kali**. Dengan cara ini kita bisa menggunakan petik satu, petik dua, bahkan baris baru juga bisa.
 
@@ -41,12 +48,16 @@ It's right there mate!"""
 print(long_message)
 ```
 
+## Melihat Tipe Data Variabel
+
 Kita bisa memastikan tipe variabel dengan sintaks `type()`.
 
 ```Python
 variable = "ini adal@h $ebuah str1ng."
 type(variable) # <class 'str'>
 ```
+
+## Konversi ke String
 
 Kita juga bisa gunakan sintaks `str()` untuk mengkonversi *value* ke dalam tipe *string*.
 
@@ -55,6 +66,8 @@ angka_string = str(17)
 type(angka_string) # coba di repl
 print(angka_string)
 ```
+
+## Operator Concantination
 
 Gimana kalau kita sudah punya satu atau beberapa *string* dan ingin membuat *string* baru dengan mengkombinasikan beberapa *string* tersebut? Seperti tipe data *integer* dan *float*, kita bisa menggunakan operator `+` *(concantination)*.
 
@@ -85,11 +98,15 @@ message = "My age is: "
 print(message + str(age)) # age dikonversi menjadi string
 ```
 
+## Perkalian String
+
 Kita juga tidak dapat menggunakan operator `-` dan `/` di tipe data *string*. Tapi, melakukan perkalian menggunakan `*` bisa dilakukan.
 
 ```Python
 print("=" * 20) # ====================
 ```
+
+## Value Dinamis
 
 Yang menarik lagi dari *Python*, ada yang namanya *placeholder* menggunakan `{}` *brackets (non-square)* yang membuat *value* yang kita punya menjadi dinamis.
 
