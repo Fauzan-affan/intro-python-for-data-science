@@ -14,9 +14,3 @@ f = 40
 s = "22"
 b = False
 ```
-
-Jawaban:
-
-```Py
-print("Integer: " + str(i*6) + ", " + "Float: " + str(f/2) + ", " + "String: " + s + ", " + "Boolean: " + str(not b))
-```
