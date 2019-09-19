@@ -1,6 +1,7 @@
 # Tipe Data String
 
 ## Definisi Tipe Data String
+
 *String* adalah kumpulan karakter, angka, spasi, emoji, dan karakter-karakter lainnya yang dibungkus oleh tanda petik. Kita bisa menggunakan **petik satu** ataupun **petik dua** selama itu **konsisten**. Contoh:
 
 ```Python
@@ -122,3 +123,4 @@ Jika kita ingin merubah angka `10` dan kata `orang`, kita tinggal mengganti angk
 pesan = 'ada {} {} sedang online'
 print(pesan.format(8,'gamers')) # kita bisa mengganti 10 dan orang menjadi 8 dan gamers
 ```
+
