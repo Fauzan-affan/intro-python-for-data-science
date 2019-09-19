@@ -1,6 +1,6 @@
 # Quiz
 
-Buatlah *output*:
+Buatlah *output* (tanpa tanda kutip):
 
 ```Python
 Integer: 18, Float: 20.0, String: 22, Boolean: True
