@@ -14,9 +14,3 @@ f = 20.0
 s = "22"
 b = False
 ```
-
-Jawaban:
-
-```Python
-print("Integer: " + str(i) + ", " + "Float: " + str(f) + ", " + "String: " + s + ", " + "Boolean: " + str(not b))
-```
