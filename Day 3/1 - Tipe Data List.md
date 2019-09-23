@@ -2,7 +2,7 @@
 
 ## Definisi Tipe Data List
 
-Selain *string*, `Python` juga punya struktur data yang akan sering kita gunakan, yaitu *list*. *List,* merupakan kumpulan dari beberapa nilai atau *value*. Buat yang sudah pernah belajar tentang bahasa pemrograman, *list* di bahasa pemrograman lain mirip seperti *array*.
+Selain *string*, *Python* juga punya struktur data yang akan sering kita gunakan, yaitu *list*. *List,* merupakan kumpulan dari beberapa nilai atau *value*. Buat yang sudah pernah belajar tentang bahasa pemrograman, *list* di bahasa pemrograman lain mirip seperti *array*.
 
 Bedanya *list* dengan *string,* yaitu *list* dapat menampung berbagai jenis tipe data, baik itu angka *(integer atau float),* *string,* *boolean* dan yang lain sebagaianya.
 
