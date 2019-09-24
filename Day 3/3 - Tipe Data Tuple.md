@@ -40,7 +40,7 @@ print(new_numbers) # (1, (2, 3, 4, 5))
 print(numbers) # (1, 2, 3, 4, 5, 6, 7)
 ```
 
-Selain bentuk dan sintaks yang berbeda, penggunaan *tuple* sebenarnya sangat identik dengan *list* dan juga *string*. DI mana, ketika penggunaan operasi `+`, lalu multiplikasi dengan operasi `*`, dan juga proses *slicing* akan menghasilkan *tuple* baru (akan terjadi *tuple* di dalam *tuple*) seperti di atas.
+Penggunaan *tuple* sebenarnya sangat identik dengan *list* dan juga *string*. DI mana, ketika penggunaan operasi `+`, lalu multiplikasi dengan operasi `*`, dan juga proses *slicing* akan menghasilkan *tuple* baru (akan terjadi *tuple* di dalam *tuple*) seperti di atas.
 
 Kalau teman-teman ingin melakukan *sorting* terhadap *tuple* yang bisa kita lakukan adalah konversi terlebih dahulu *tuple* menjadi *list* dan baru lakukan proses *sorting*.
 
