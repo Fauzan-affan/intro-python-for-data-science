@@ -51,7 +51,7 @@ angka = list_variabel[7:14]
 ## Satuan panjang dari milimeter ke kilometer (urutkan variabel)
 
 ## urutkan satuan panjang
-## (balik dr indeks ke 6 sampai inkes ke 0)
+## (balik dr indeks ke 6 sampai indeks ke 0)
 label = []
 label.append(satuan_panjang[6])
 label.append(satuan_panjang[5])
