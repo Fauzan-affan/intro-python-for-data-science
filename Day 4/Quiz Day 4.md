@@ -39,7 +39,7 @@ angka = list_variabel[7:14]
 ## Satuan panjang dari milimeter ke kilometer (urutkan variabel)
 
 ## urutkan satuan panjang
-## (balik dr indeks ke 6 sampai inkes ke 0) menggunakan while
+## (balik dr indeks ke 6 sampai indeks ke 0) menggunakan while
 label = []
 h = len(satuan_panjang) # h = 7
 
