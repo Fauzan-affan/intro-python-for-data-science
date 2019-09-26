@@ -82,4 +82,4 @@ for (x, y) in kordinat:
     print(x, y)
 ```
 
-Di sini kita melakukan pemetaan dari daftar koordinat dengan struktur data *tuple* di dalam *list*. Item pertama dari *tuple* pertama akan menjadi `x` dan item kedua dari *tuple* pertama akan dipetakan menjadi `y`.
+Di sini kita melakukan pemetaan dari daftar koordinat dengan struktur data *tuple* di dalam *list*. Item pertama dari *tuple* pertama akan menjadi `x` dan item kedua dari *tuple* pertama akan menjadi `y`.
