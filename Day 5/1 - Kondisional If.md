@@ -64,7 +64,7 @@ if umur * 365 > 20000: # menyaring kondisi pertama
 elif umur * 365 > 10000: # menyaring kondisi ke dua
     print('Tenang, kamu masih punya waktu') # ditampilkan jika umur x 365 = lebih besar dari 10.000 hari TAPI kurang dari 20.000 hari (> 27 tahun)
 else:
-    print('Mari mulai mengukir masa depan!') # default kondisi atau jika umur < 10.000 hari (< 27 tahun)
+    print('Mari mulai mengukir masa depan!') # default kondisi atau jika umur < 10.000 hari (< 28 tahun)
 ```
 
 ## If dengan Operator
