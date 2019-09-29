@@ -75,9 +75,9 @@ Operator logika adalah **operator yang digunakan untuk membuat kesimpulan logis 
 
 | Operator | Penjelasan                                 | Contoh        | Hasil |
 |----------|--------------------------------------------|---------------|-------|
-| and      | True jika ke dua operand bernilai True     | True and True | TRUE  |
-| or       | True jika salah satu operand bernilai True | True or False | TRUE  |
-| not      | True jika operand bernilai False           | not False     | TRUE  |
+| and      | True jika ke dua operand bernilai True     | True and True | True  |
+| or       | True jika salah satu operand bernilai True | True or False | True  |
+| not      | True jika operand bernilai False           | not False     | True  |
 
 ### Operator Perbandingan
 
