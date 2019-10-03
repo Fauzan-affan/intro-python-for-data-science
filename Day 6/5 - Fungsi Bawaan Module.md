@@ -60,3 +60,5 @@ logger("Dipanggil dari a.py!!")
 ```
 
 Dengan menggunakan `from`, sekarang kita tidak lagi menggunakan *dot (.) notation* untuk memanggil fungsi `logger`. Seolah-olah `logger` didefinisikan di dalam *file* a.
+
+Setting path: [Klik di sini](https://codesaya.com/a/tutorial-installasi-python-pada-windows-wxcjqmvyvm/)
