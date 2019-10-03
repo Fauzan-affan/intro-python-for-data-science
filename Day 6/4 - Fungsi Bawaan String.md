@@ -28,7 +28,7 @@ print(rubah) # LIZA
 
 ## Replace
 
-Dan yang terakhir, `replace()` dapat kita gunakan untuk mencari dan mengganti karakter dalam sebuah *list*.
+Dan yang terakhir, `replace()` dapat kita gunakan untuk mencari dan mengganti karakter dalam sebuah *string*.
 
 ```py
 name = "liza"
