@@ -19,16 +19,16 @@ Kita juga bisa menggunakan fungsi bawaan *Python* sudah sering kita gunakan sebe
 
 - Pertama, *sort* secara *ascending* (urutan dari kecil ke besar). Sintak yang digunakan adalah:
 
-```py
-languages = ["python", "javascript", "go", "rust"]
-languages.sort()
-print(languages) # ['go', 'javascript', 'python', 'rust']
-```
+  ```py
+  languages = ["python", "javascript", "go", "rust"]
+  languages.sort()
+  print(languages) # ['go', 'javascript', 'python', 'rust']
+  ```
 
 - Ke dua, *sort* secara *descending* (urutan dari besar ke kecil). Sintaksnya hanya ditambahkan `reverse= True`.
 
-```py
-languages = ["python", "javascript", "go", "rust"]
-languages.sort(reverse= True)
-print(languages) # ['rust', 'python', 'javascript', 'go']
-```
+  ```py
+  languages = ["python", "javascript", "go", "rust"]
+  languages.sort(reverse= True)
+  print(languages) # ['rust', 'python', 'javascript', 'go']
+  ```
