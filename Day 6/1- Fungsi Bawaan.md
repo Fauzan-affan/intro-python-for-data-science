@@ -1,6 +1,6 @@
 # Fungsi Bawaan
 
-Fungi bawaan atau yang biasa disebut dengan *build-in functions* adalah **beberapa fungsi-fungsi tambahan yang dibuat oleh kontributor *Python* dan disediakan untuk kita gunakan secara gratis**. Fungsi-fungsi ini sudah tersedia saat kita melakukan instalasi *Python*. Beberapa bahkan sudah pernah kita gunakan sebelumnya. Misalnya `len()` untuk mencari tahu seberapa panjang sebuah *string* atau *list*, `print()` untuk menmapilkan ke layar, dan masih banyak lagi.
+Fungi bawaan atau yang biasa disebut dengan *build-in functions* adalah **beberapa fungsi-fungsi tambahan yang dibuat oleh kontributor *Python* dan disediakan untuk kita gunakan secara gratis**. Fungsi-fungsi ini sudah tersedia saat kita melakukan instalasi *Python*. Beberapa bahkan sudah pernah kita gunakan sebelumnya. Misalnya `len()` untuk mencari tahu seberapa panjang sebuah *string* atau *list*, `print()` untuk menampilkan ke layar, dan masih banyak lagi.
 
 Berikut beberapa *build-in function* menarik yang disediakan *Python*. Kita akan membahas sedikit dari sekian banyak *build-in function* yang ada. Untuk melihat seluruh *build-in function* yang disediakan *Python* silakan ke [tautan berikut](https://docs.python.org/3/library/functions.html).
 
