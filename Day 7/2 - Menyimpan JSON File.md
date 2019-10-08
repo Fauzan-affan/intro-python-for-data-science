@@ -52,7 +52,7 @@ load == rec # True
 
 ## Menyimpan Variabel ke dalam File
 
-Kalau sebelumnya kita sudah berhasil meng-*encode* dan men-*decode* *dictionary* kita ke dalam sebuah variabel, sekarang kita akan mencoba memasukkan *dictionary* tersebut ke dalam *file* dengan *extension* json.
+Kalau sebelumnya kita sudah berhasil meng-*encode* dan men-*decode* *dictionary* kita ke dalam sebuah variabel, sekarang kita akan mencoba memasukkan *dictionary* tersebut ke dalam *file* dengan *extension* json. Untuk menggunakan `dump()` dan `load()` jangan lupa `import json` terlebih dahulu.
 
 ```py
 # deklarasi variabel
@@ -61,7 +61,8 @@ rec = dict(name=name, job=['dev', 'senior'], age=22.5)
 
 # membuat file baru untuk diencode dictionary rec
 write_file = open('test.json', 'w')
-json.dump(rec, write_file)
+file = json.dump(rec, write_file)
+file.close()
 ```
 
 Setelah *encoding* kita lihat seluruh isi *file* `test.json` menggunakan fungsi `read()`.
