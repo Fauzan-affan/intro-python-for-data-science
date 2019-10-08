@@ -9,11 +9,9 @@ import json
 biodata = dict(nama='Angga', jenis_kelamin='laki - laki', umur='17')
 
 write_file = open('biodata.json', 'w')
-file = json.dump(biodata, write_file)
-file # rubah menjadi file.close() (windows)
+json.dump(biodata, write_file)
+write_file.close()
 
 json_file = open('biodata.json')
-loadfile = json.load(json_file)
-
-loadfile
+json.load(json_file)
 ```
