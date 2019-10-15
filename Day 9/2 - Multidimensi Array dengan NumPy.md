@@ -21,6 +21,8 @@ array_kedua = [6,7,8,9,10]
 
 Menggunakan *numpy:*
 
+> Jangan lupa import NumPy terlebih dahulu (`import numpy as np`)
+
 ```py
 # numpy array
 array_pertama = np.array([1,2,3,4,5])
@@ -59,7 +61,7 @@ Berbeda dengan `list`, ***numpy array* hanya boleh mengandung satu jenis tipe da
 Jika kita memaksakan untuk memasukkan tipe data yang berbeda ke dalam *numpy array*, secara otomatis *numpy* akan melakukan konversi sehingga tipe datanya menjadi sama. Mari kita coba.
 
 ```py
-mixed array = np.array([1.0, "is", True])
+mixed_array = np.array([1.0, "is", True])
 print(mixed_array)
 ```
 
