@@ -1,10 +1,9 @@
 # Struktur Data Pandas
 
-Seperti yang sudah kita bahas sebelumnya, *pandas* bisa membaca *data frame*, yang merupakan salah satu dari struktur data yang digunakan di *pandas*. Jadi, ada tiga jenis struktur data yang digunakan *pandas*, yaitu:
+Seperti yang sudah kita bahas sebelumnya, *pandas* bisa membaca *data frame*, yang merupakan salah satu dari struktur data yang digunakan di *pandas*. Jadi, ada dua jenis struktur data yang digunakan *pandas*, yaitu:
 
 1. `Series` adalah struktur data 1D
 1. `DataFrame` adalah struktur data 2D
-1. `Panel` adalah struktur data 3D dan lebih (tidak dibahas karena jarang digunakan)
 
 ## Series
 
