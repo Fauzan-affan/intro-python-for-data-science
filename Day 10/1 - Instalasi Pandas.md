@@ -20,12 +20,9 @@ Tampilannya instalasinya seperti ini:
 
 ![install pandas](img/2.png)
 
-Jika sudah ter-*install*, selanjutnya bisa kita *import* sepaket mulai dari *pandas* dan *numpy* sebagai *library* manipulasi datanya, serta *matplotlib* untuk membuat grafik, dengan menggunakan sintaks:
+Jika sudah ter-*install*, selanjutnya bisa kita *import* sepaket mulai dari *pandas* dan *numpy* sebagai *library* manipulasi datanya dengan menggunakan sintaks:
 
 ```py
 import pandas as pd
 import numpy as np
-%matplotlib inline
 ```
-
-*Matplotlib* adalah eksternal *library Python* yang memungkinkan kita untuk melakukan visualisasi terhadap data. Kita akan membahas *library* ini lebih dalam pada bagian visualisasi data nanti.
