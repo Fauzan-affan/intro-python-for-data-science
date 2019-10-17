@@ -120,7 +120,7 @@ data
 
 ![describe](img/7.png)
 
-Pada kasus kali ini, saya menyimpan *file*-nya di *folder* berbeda, yang ada di luar dari *folder* sekarang. Jika teman-teman menaruh pada *folder* yang sama, kita bisa mengganti *path*-nya menjadi `pd.read_csv(cars.csv)` saja.
+Pada kasus kali ini, saya menyimpan *file*-nya di *folder* berbeda, yang ada di luar dari *folder* sekarang. Jika teman-teman menaruh pada *folder* yang sama, kita bisa mengganti *path*-nya menjadi `pd.read_csv('cars.csv')` saja.
 
 ### Menampilkan 5 Baris Teratas
 
