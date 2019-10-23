@@ -23,7 +23,7 @@ Ada beberapa catatan penting yang harus teman-teman perhatikan dalam penerapan *
     Langkah-langkah selanjutnya ditentukan oleh langkah sebelumnya. Artinya, langkah selanjutnya tidak bisa dilakukan jika langkah sebelumnya belum selesai *(procedural)*.
 
 2. **Mengulang proses**
-    Pemrosesan data biasanya tidak hanya selesai di pemrosesan pertama saja. Untuk mendapatkan hasil yang maksimal, seorang data analis akan terus mengulang percobaan terhadap modelnya menggunakan algoritma *machine learning* lainnya.
+    Pemrosesan data biasanya tidak hanya selesai di pemrosesan pertama saja. Untuk mendapatkan hasil yang maksimal, seorang *data scientist* akan terus mengulang percobaan terhadap modelnya menggunakan algoritma *machine learning* lainnya.
 
 3. **Data berantakan**
     Biasanya data yang digunakan untuk percobaan model masih belum sesuai dengan yang kita inginkan. Untuk itu, kita perlu mengeksplorasi data tersebut sebelum bisa kita gunakan untuk pemodelan.
