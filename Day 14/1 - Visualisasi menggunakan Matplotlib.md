@@ -18,12 +18,17 @@ Mari kita coba beberapa grafik dari `matplotlib` dan `pandas` dengan menggunakan
 
 Pertama-tama, mari kita *load* ke dua data tersebut menggunakan *Pandas*.
 
-- *Import* `numpy`, `pandas`, dan `%matplotlib inline` (untuk menampilkan grafik di *jupyter*)
+- *Import* `numpy`, `pandas`, dan `%matplotlib inline` (untuk menampilkan grafik di *jupyter*).
+
 ![Import](img/1/1.png)
 
-- *Import* dataset Bunga Iris ![Import](img/1/2.png)
+- *Import* dataset Bunga Iris.
 
-- *Import* dataset Wine Review. `index_col` digunakan untuk membuat kolom pertama sebagai indeks. ![Import](img/1/3.png)
+![Import](img/1/2.png)
+
+- *Import* dataset Wine Review. `index_col` digunakan untuk membuat kolom pertama sebagai indeks. 
+
+![Import](img/1/3.png)
 
 ## Matplotlib
 
