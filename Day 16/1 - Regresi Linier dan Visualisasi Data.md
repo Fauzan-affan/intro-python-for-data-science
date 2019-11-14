@@ -131,3 +131,7 @@ plt.show()
 ![prediksi pengalaman 10 thn](img/14.png)
 
 Dengan *scatter plot* kita bisa melihat hasil prediksi gaji dengan pengalaman 10 tahun melalui diagram.
+
+Multiple Regresi Linier: 
+
+- [https://towardsdatascience.com/simple-and-multiple-linear-regression-with-python-c9ab422ec29c](https://towardsdatascience.com/simple-and-multiple-linear-regression-with-python-c9ab422ec29c)
