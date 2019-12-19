@@ -131,3 +131,5 @@ ax.set_ylabel('Frekuensi Kemunculan')
 ```
 
 ![jupyter histogram](img/1/8.png)
+
+Dataset Wine Review: [https://drive.google.com/file/d/1lcVLHKhg2Xs40DjeYRxy77rbsUi-t2-J/view?usp=sharing](https://drive.google.com/file/d/1lcVLHKhg2Xs40DjeYRxy77rbsUi-t2-J/view?usp=sharing
