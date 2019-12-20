@@ -217,7 +217,7 @@ from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 
 # gunakan training data untuk membuat model
-regressor.fit(X_train, y_train)
+regressor.fit(x_train, y_train)
 ```
 
 ![LR](img/9.png)
