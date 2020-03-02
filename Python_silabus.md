@@ -84,5 +84,3 @@
 
 * Day 17:
     1. Final Project 1
-* Day 18:
-    1. Final Project 2
