@@ -44,6 +44,10 @@ Kita dapat memilih menggunakan *Anaconda* dengan *package* *Python 2* atau *Pyth
 
     ![Pilihan Download Python](img/img-day-1/sesi-2/9.png)
 
+    Atau bisa mengakses IDLE Python di bagian start menu, *icon*-nya seperti ini:
+
+    ![IDLE](img/img-day-1/sesi-2/12.png)
+
 9. Buka *Anaconda Navigator* untuk mengecek fitur–fitur atau aplikasi yang ada.
 
     ![Pilihan Download Python](img/img-day-1/sesi-2/11.jpg)
