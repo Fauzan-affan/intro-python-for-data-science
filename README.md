@@ -7,6 +7,7 @@ Silabus &amp; assets intro python for data science, connext Batch 32
 + *Nomer student yang hadir === kode peserta di bawah:
 
     ![nomer student](img/image.png)
+    
     8. Fathi Hanif Lubis -> PYTN031KMP009
 
 ## Absensi Mentor
