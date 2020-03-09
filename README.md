@@ -7,6 +7,3 @@ Silabus &amp; assets intro python for data science, connext Batch 32
 ![nomer student](img/image.png)
 
 Fathi Hanif Lubis -> PYTN031KMP009
-
-## Absensi Mentor
-[bit.ly/presensih8](bit.ly/presensih8)
