@@ -26,7 +26,7 @@ Kita dapat memilih menggunakan *Anaconda* dengan *package* *Python 2* atau *Pyth
 
     ![Pilihan Download Python](img/img-day-1/sesi-2/5.jpg)
 
-5. Jika sudah selesai *(complete)* *install* pilih *next* dan akan muncul *Microsoft VSCode*, *skip* untuk melewati tahap ini karena kita sudah menginstal *VSCode*.
+5. Jika sudah selesai *(complete)* *install* pilih *next* dan akan muncul *Microsoft VSCode*, *skip* untuk melewati tahap ini karena kita saat ini tidak membutuhkan *VSCode*.
 
     ![Pilihan Download Python](img/img-day-1/sesi-2/6.jpg)
 
