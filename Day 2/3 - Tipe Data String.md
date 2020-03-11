@@ -123,4 +123,3 @@ Jika kita ingin merubah angka `10` dan kata `orang`, kita tinggal mengganti angk
 pesan = 'ada {} {} sedang online'
 print(pesan.format(8,'gamers')) # kita bisa mengganti 10 dan orang menjadi 8 dan gamers
 ```
-
