@@ -1,34 +1,40 @@
 # Perulangan While
 
-Dalam bahasa pemrograman *Python* terdapat 2 buah struktur perulangan atau *looping*, yaitu perulangan *while* dan perulangan *for*. Sekarang kita akan bahas perulangan yang pertama, yaitu *while*.
+Dalam bahasa pemrograman *Python* terdapat 2 buah struktur perulangan atau *looping*, yaitu perulangan *while* dan perulangan *for*. Sekarang kita akan bahas perulangan yang pertama dulu, yaitu *while*.
 
 ## Pengertian While
 
-Perulangan *while* adalah cara iterasi di dalam pemrograman *python* yang paling umum digunakan. Sederhananya, *while* melakukan perulangan eksekusi sebuah blok kode selama kondisi yang ditentukan dibagian awal terpenuhi atau *true*. Untuk lebih jelasnya perhatikan gambar di bawah ini:
+*While* adalah iterasi di dalam *python* yang paling umum digunakan. Sederhananya, ***while* melakukan perulangan sebuah blok kode selama kondisi yang ditentukan dibagian awal terpenuhi atau bernilai *true***. Untuk lebih jelasnya perhatikan gambar di bawah ini:
 
 ![While](img/while.png)
 
-Dalam merancang perulangan, kita setidaknya harus mengetahui 3 komponen:
+Dalam merancang *while*, kita setidaknya harus mengetahui 3 komponen:
 
-1. Kondisi awal perulangan.
+1. Kondisi awal.
 2. Kondisi pada saat perulangan.
 3. Kondisi yang harus dipenuhi agar perulangan berhenti.
 
 Berikut format dasar struktur perulangan *while* dalam bahasa *Python*:
 
 ```py
-start;
-while condition:
+start; # kondisi awal
+while condition: # kondisi pada saat perulangan
   # kode program yang akan diulang
   # kode program yang akan diulang
-  increment
+  increment # Kondisi yang harus dipenuhi agar perulangan berhenti
 ```
 
-Di bagian `start` biasanya berupa perintah inisialisasi variabel *counter*, misalnya `i = 0`. Di bagian `condition` terdapat kondisi yang harus dipenuhi agar perulangan berjalan, misalnya `i < 5`. Kemudian perintah `increment` di dalam *block* perulangan yang di pakai untuk menaikkan nilai variabel *counter*, misalnya dengan perintah `i = i + 1`.
+* Di bagian `start` biasanya berupa perintah inisialisasi variabel *counter* (variabel yang akan digunakan untuk mengecek kondisi di *while*), misalnya `i = 0`.
 
-Perhatikan tabulasi yang ada di dalam block perulangan. Setelah kita mengetikkan tanda `:` dan memencet enter, kita harus menambahkan tabulasi *(pencet keyboard tab)* satu kali untuk membuat indentasi yang setelahnya adalah isi dari perulangan kita.
+* Di bagian `condition` terdapat kondisi yang harus dipenuhi agar *while* berjalan, misalnya `i < 5`.
 
-Berbeda dengan bahasa pemrograman turunan *C* (seperti *C++, Java, PHP* maupun *JavaScript*), di dalam *Python* tidak dikenal operator *increment* seperti `i++` atau `i--`. Untuk menaikkan angka *counter*, kita bisa menggunakan perintah `i = i + 1` atau menggunakan operator *assignment* gabungan seperti `i += 1`.
+* Kemudian perintah `increment` di dalam *block* *while* yang di pakai untuk menaikkan nilai variabel *counter*, misalnya dengan perintah `i = i + 1`.
+
+> Perhatikan tabulasi yang ada di dalam block perulangan. **Setelah kita mengetikkan tanda `:` dan memencet enter, kita harus menambahkan tabulasi *(whitespace)* satu kali untuk membuat indentasi**.
+
+Berbeda dengan bahasa pemrograman turunan *C* (seperti *C++, Java, PHP* maupun *JavaScript*), ***Python* tidak dikenal operator *increment* seperti `i++` atau `i--`**.
+
+> **Untuk menaikkan angka *counter*, kita bisa menggunakan perintah `i = i + 1` atau menggunakan operator *assignment* gabungan seperti `i += 1`**.
 
 ## Infinity Loop
 
