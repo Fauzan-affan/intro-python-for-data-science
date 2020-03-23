@@ -1,12 +1,12 @@
 # Percabangan
 
-Kita akan membahas struktur percabangan dalam bahasa *Python*. Dibuka dengan bentuk percabangan yang paling sederhana, yaitu kondisi *if*.
+Kita akan membahas struktur percabangan dalam bahasa *Python*. Dibuka dengan bentuk percabangan yang paling sederhana, yaitu kondisi `if`.
 
 ## Kondisional If
 
-*If* merupakan statement kunci untuk percabangan *(branching)*, seleksi, dan membandingkan nilai dengan nilai lainnya. *Statement if* ini juga erat kaitannya dengan tipe data *boolean* karena dia akan mengecek apakah sebuah perbandingan *True* atau *False*.
+`if` merupakan statement kunci untuk percabangan *(branching)*, seleksi, dan membandingkan nilai dengan nilai lainnya. *Statement if* ini juga erat kaitannya dengan tipe data *boolean* karena dia akan mengecek apakah sebuah perbandingan *True* atau *False*.
 
-Format penulisan *if* ini mirip-mirip dengan bahasa pemrograman lain. Menggunakan bahasa *Python*, struktur *if* dibuat dengan aturan penulisan sebagai berikut:
+Format penulisan `if` ini mirip-mirip dengan bahasa pemrograman lain. Menggunakan bahasa *Python*, struktur `if` dibuat dengan aturan penulisan sebagai berikut:
 
 ```py
 if condition:
@@ -16,7 +16,7 @@ if condition:
 
 Bagian *condition* berperan sebagai penentu dari struktur percabangan. **Jika *condition* terpenuhi (menghasilkan nilai *True*), lalu blok kode program akan dijalankan. Jika *condition* tidak terpenuhi (menghasilkan nilai *False*), blok kode program tidak akan dijalankan.** *Condition* biasanya terdiri dari operasi perbandingan, misalnya apakah variabel *a* berisi angka `10`, atau variabel *password* berisi string `‘rahasia’`.
 
-Biasanya *statement* *if* juga diikuti dengan *else* ataupun *else if.* ***Else if* digunakan apabila ada banyak kemungkinan kondisi yang bisa terjadi**. Di *Python* *else if* menggunakan sintaks `elif`. ***Else* digunakan sebagai *default* kondisi.**
+Biasanya *statement* `if` juga diikuti dengan *else* ataupun *else if.* ***Else if* digunakan apabila ada banyak kemungkinan kondisi yang bisa terjadi**. Di *Python* *else if* menggunakan sintaks `elif`. ***Else* digunakan sebagai *default* kondisi.**
 
 ```py
 kondisi1 = 0
@@ -30,7 +30,7 @@ else: # default kondisi
     pass
 ```
 
-Kita coba membuat *if* dengan kondisinya angka `1`. Perlu diingat angka `1` sama dengan *boolean* *True*, jadi kondisi sama saja dengan `if True:`.
+Kita coba membuat `if` dengan kondisinya angka `1`. Perlu diingat angka `1` sama dengan *boolean* *True*, jadi kondisi sama saja dengan `if True:`.
 
 ```py
 if 1: # 1 artinya true (boolean)
@@ -102,7 +102,7 @@ print('Setelah outer if')                 #  x
 
 ## If menggunakan Elif dan Else
 
-Ketika kita membuat aplikasi, jarang sekali hanya menggunakan satu kondisi *if* saja. Seringkali, kita dihadapkan oleh banyak kemungkinan yang terjadi yang megharuskan kita memeriksa beberapa kondisi. Karena itu, kita butuh *tools* yang dapat menyaring beberapa kondisi tersebut. Di *Python* kita menggunakan *statement* `elif`.
+Ketika kita membuat aplikasi, jarang sekali hanya menggunakan satu kondisi `if` saja. Seringkali, kita dihadapkan oleh banyak kemungkinan yang terjadi yang megharuskan kita memeriksa beberapa kondisi. Karena itu, kita butuh *tools* yang dapat menyaring beberapa kondisi tersebut. Di *Python* kita menggunakan *statement* `elif`.
 
 Mari kita lihat contoh *statement* `elif` dengan membuat sebuah aplikasi sederhana. Aplikasi ini akan menghitung umur pengguna dalam satuan hari, kemudian memberikan saran kepada pengguna tersebut sesuai dengan umurnya. Berikut adalah contohnya:
 
@@ -137,7 +137,7 @@ else:
 
 Pada contoh di atas, salah satu dari blok `if` akan dieksekusi. Tapi, **jika tidak menggunakan `else`, dan semua kondisi bernilai `False`, tidak ada blok if yang akan dieksekusi**.
 
-Ketika satu blok `if` ditest dan bernilai `True` lalu blok tersebut dieksekusi, sisa blok yang lain tidak akan ditest oleh sistem, contohnya seperti berikut:
+Ketika satu blok `if` dicek dan bernilai `True` lalu blok tersebut dieksekusi, sisa blok yang lain tidak akan dicek oleh sistem, contohnya seperti berikut:
 
 ```py
 if 'a' in 'bar':
@@ -188,3 +188,47 @@ elif total_hari >= 10000 and total_hari < 20000: # menggunakan operator logika a
 else:
     print('Mari mulai mengukir masa depan!')
 ```
+
+## Ternary Operator
+
+Struktur *ternary operator* pada Python:
+
+```html
+<expr1> if <conditional_expr> else <expr2>
+```
+
+Ini berbeda dengan struktur `if` sebelumnya, karena ini tidak mengontrol ke arah mana kode selanjutnya akan dieksekusi. ***Ternary operator* lebih seperti operator yang mendefinisikan suatu kondisi saja**. Pada contoh di atas, **`<conditional_expr>` dieksekusi terlebih dahulu,** kemudian:
+
+* Jika bernilai `True` yang akan diambil adalah `<exp1>`
+* Jika bernilai `False` yang akan diambil adalah `<exp2>`
+
+> Ekspresi yang di tengah akan dieksekusi pertama. Berdasarkan hasil eksekusi tersebut, **hanya satu** dari dua ekspresi yang akan diambil.
+
+Contoh penggunaan *ternary operator:*
+
+```py
+corona = False
+
+print("Ayo ke", 'pantai' if not corona else 'rumah')
+```
+
+```py
+corona = True
+
+print("Ayo ke", 'pantai' if not corona else 'rumah')
+```
+
+```py
+umur = 12
+s = 'Anak-Anak' if umur < 21 else 'Dewasa'
+s
+```
+
+```py
+'Ya' if ('qux' in ['foo', 'bar', 'baz']) else 'Tidak'
+```
+
+Terakhir, sama seperti `if` dalam pengecekan sintaksnya,
+
+* Jika `<conditional_expr>` bernilai `True`, `<expr1>` yang diambil dan `<expr2>` tidak akan dicek oleh sistem.
+* Jika `<conditional_expr>` bernilai `False`, `<expr2>` yang diambil dan `<expr1>` tidak akan dicek oleh sistem.
