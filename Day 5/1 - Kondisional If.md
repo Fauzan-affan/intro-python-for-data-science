@@ -135,7 +135,7 @@ else:
     print("Aku tidak mengenalmu!")
 ```
 
-Pada contoh di atas, salah satu dari blok `if` akan dieksekusi. Tapi, **jika tidak menggunakan `else`, dan semua kondisi bernilai *False*, tidak ada blok if yang akan diekseksi**.
+Pada contoh di atas, salah satu dari blok `if` akan dieksekusi. Tapi, **jika tidak menggunakan `else`, dan semua kondisi bernilai `False`, tidak ada blok if yang akan dieksekusi**.
 
 Ketika satu blok `if` ditest dan bernilai `True` lalu blok tersebut dieksekusi, sisa blok yang lain tidak akan ditest oleh sistem, contohnya seperti berikut:
 
