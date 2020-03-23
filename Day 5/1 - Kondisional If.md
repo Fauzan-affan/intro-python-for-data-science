@@ -1,6 +1,6 @@
 # Percabangan
 
-Kita akan membahas struktur percabangan dalam bahasa *Python*. Dibuka dengan bentuk percabangan yang paling sederhana, yakni kondisi *if*.
+Kita akan membahas struktur percabangan dalam bahasa *Python*. Dibuka dengan bentuk percabangan yang paling sederhana, yaitu kondisi *if*.
 
 ## Kondisional If
 
@@ -50,9 +50,59 @@ else:
 
 Karena kondisi menghasilkan nilai *False* (`not True == False`) maka blok kode yang akan dieksekusi adalah blok kode ke dua, yaitu `print('false')`.
 
+Contoh lain penggunaan *if:*
+
+```py
+x = 0
+y = 5
+
+if x < y:                            # True
+    print('yes')
+
+if y < x:                            # False
+    print('yes')
+
+if x:                                # False
+    print('yes')
+
+if y:                                # True
+    print('yes')
+
+if 'aul' in 'grault':                # True
+    print('yes')
+
+if 'quux' in ['foo', 'bar', 'baz']:  # False
+    print('yes')
+
+if 'foo' in ['foo', 'bar', 'baz']:   # True
+    print('yes')
+```
+
+## Nested If
+
+Seperti namanya ***nested if*** atau if bersarang, adalah gabungan if di dalam sebuah if. **Setiap indentasi ke dalam menggambarkan blok if baru, dan masing-masing indentasi keluar mengakhiri blok if sebelumnya.**
+
+```py
+# Line mana yg akan dijalankan?             Yes    No
+#                                           ---    --
+if 'foo' in ['foo', 'bar', 'baz']:        #  x
+    print('Outer if bernilai True')       #  x
+
+    if 10 > 20:                           #  x
+        print('Inner if pertama')         #        x
+
+    print('Diantara inner')               #  x
+
+    if 10 < 20:                           #  x
+        print('Inner if ke dua')          #  x
+
+    print('Akhir dari outer if')          #  x
+print('Setelah outer if')                 #  x
+```
+
 ## If menggunakan Elif dan Else
 
-Ketika kita membuat aplikasi, jarang sekali hanya menggunakan satu percabangan *if* saja. Seringkali, kita dihadapkan oleh banyak kemungkinan yang terjadi yang megharuskan kita memeriksa beberapa kondisi. Karena itu, kita butuh *tools* yang dapat menyaring beberapa kondisi tersebut. Di *Python* kita menggunakan *statement* `elif`.
+Ketika kita membuat aplikasi, jarang sekali hanya menggunakan satu kondisi *if* saja. Seringkali, kita dihadapkan oleh banyak kemungkinan yang terjadi yang megharuskan kita memeriksa beberapa kondisi. Karena itu, kita butuh *tools* yang dapat menyaring beberapa kondisi tersebut. Di *Python* kita menggunakan *statement* `elif`.
 
 Mari kita lihat contoh *statement* `elif` dengan membuat sebuah aplikasi sederhana. Aplikasi ini akan menghitung umur pengguna dalam satuan hari, kemudian memberikan saran kepada pengguna tersebut sesuai dengan umurnya. Berikut adalah contohnya:
 
@@ -65,6 +115,37 @@ elif umur * 365 > 10000: # menyaring kondisi ke dua
     print('Tenang, kamu masih punya waktu') # ditampilkan jika umur x 365 = lebih besar dari 10.000 hari TAPI kurang dari 20.000 hari (> 27 tahun)
 else:
     print('Mari mulai mengukir masa depan!') # default kondisi atau jika umur < 10.000 hari (< 28 tahun)
+```
+
+> `elif` bisa lebih dari satu. Sedangkan `else` sifatnya opsional (boleh ada atau tidak). `else` **hanya boleh ada satu saja**, **`else`digunakan ketika kondisi memerlukan default value jika tidak ada kondisi `if` atau `elif` yang terpenuhi.**
+
+Contoh lain penggunaan `if`, `elif`, dan `else`:
+
+```py
+name = 'Hacktiv8'
+if name == 'Fred':
+    print('Hello Fred')
+elif name == 'Xander':
+    print('Hello Xander')
+elif name == 'Hacktiv8':
+    print('Hello Hacktiv8')
+elif name == 'Arnold':
+    print('Hello Arnold')
+else:
+    print("Aku tidak mengenalmu!")
+```
+
+Pada contoh di atas, salah satu dari blok `if` akan dieksekusi. Tapi, **jika tidak menggunakan `else`, dan semua kondisi bernilai *False*, tidak ada blok if yang akan diekseksi**.
+
+Ketika satu blok `if` ditest dan bernilai `True` lalu blok tersebut dieksekusi, sisa blok yang lain tidak akan ditest oleh sistem, contohnya seperti berikut:
+
+```py
+if 'a' in 'bar':
+    print('foo')
+elif 1/0: # seharusnya menghasilkan error
+    print("This won't happen")
+elif var: # seharusnya menghasilkan error
+    print("This won't either")
 ```
 
 ## If dengan Operator
