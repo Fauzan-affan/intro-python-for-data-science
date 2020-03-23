@@ -220,7 +220,9 @@ print("Ayo ke", 'pantai' if not corona else 'rumah')
 
 ```py
 umur = 12
+
 s = 'Anak-Anak' if umur < 21 else 'Dewasa'
+
 s
 ```
 
