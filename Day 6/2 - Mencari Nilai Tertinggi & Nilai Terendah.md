@@ -18,7 +18,7 @@ print(max(1, 5, 9)) # 9
 print(min(1, 5, 9)) # 1
 ```
 
-Selain kumpulan angka, `max()` dan `min()` juga bisa digunakan untuk kumpulan huruf atau simbol. Dengan catatan, simbol selalu berada paling rendah dibandingkan huruf.
+Selain kumpulan angka, `max()` dan `min()` juga bisa digunakan untuk kumpulan huruf atau simbol. Dengan catatan, **simbol selalu berada paling rendah dibandingkan huruf**.
 
 ```py
 # Contoh 1
