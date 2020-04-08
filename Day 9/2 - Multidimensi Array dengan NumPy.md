@@ -147,10 +147,10 @@ Jika diperhatikan *array* dimulai dan ditutup dengan `()` *(pharentesis)*. *Arra
 
 ### Melihat Dimensi Array
 
-*Numpy* menyediakan fungsi `shape()` untuk melihat dimensi dari sebuah *array*:
+*Numpy* menyediakan fungsi `shape` untuk melihat dimensi dari sebuah *array*:
 
 ```py
-array_2d.shape() # (2,3) artinya 2 baris dan 3 kolom
+array_2d.shape # (2,3) artinya 2 baris dan 3 kolom
 ```
 
 *Jupyter notebook:*
