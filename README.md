@@ -1,4 +1,4 @@
-# intro-python-for-data-science (Change Master branch for more materials)
+# intro-python-for-data-science (Change "master" branch for more materials)
 Silabus &amp; assets intro python for data science, connext Batch 32
 
 ## Absensi Student
